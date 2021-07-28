@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/hejo"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:scrollbars="vertical"
+    tools:context=".UpdateActivity">
+
+    <TextView
+        style="@style/tv_form"
+        android:text="Nama Hidangan" />
+
+    <EditText
+        android:id="@+id/et_edit_nama_hidangan"
+        style="@style/edit_form"
+        android:hint="Name Here!!" />
+
+    <TextView
+        style="@style/tv_form"
+        android:text="Jenis Hidangan" />
+
+    <EditText
+        android:id="@+id/et_edit_jenis_hidangan"
+        style="@style/edit_form"
+        android:hint="Jenis Hidangan Here!!" />
+
+    <TextView
+        style="@style/tv_form"
+        android:text="Durasi" />
+
+    <EditText
+        android:id="@+id/et_edit_durasi"
+        style="@style/edit_form"
+        android:hint="Durasi Here!!" />
+
+    <TextView
+        style="@style/tv_form"
+        android:text="Bahan-bahan" />
+
+    <EditText
+        android:id="@+id/et_edit_bahan"
+        style="@style/edit_form"
+        android:hint="Bahan Here!!" />
+
+    <TextView
+        style="@style/tv_form"
+        android:text="Langkah-langkah" />
+
+    <EditText
+        android:id="@+id/et_edit_langkah"
+        style="@style/edit_form"
+        android:hint="Langkah Here!!" />
+
+    <TextView
+        style="@style/tv_form"
+        android:text="Nama Pembuat" />
+
+    <EditText
+        android:id="@+id/et_edit_nama_pembuat"
+        style="@style/edit_form"
+        android:hint="Nama Pembuat Here!!" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_edit_submit"
+            style="@style/btn_form"
+            android:text="Submit"
+            app:backgroundTint="@color/hejokolot" />
+
+        <Button
+            android:id="@+id/btn_edit_cancel"
+            style="@style/btn_form"
+            android:text="Cancel"
+            app:backgroundTint="@color/hejokolot" />
+    </LinearLayout>
+</LinearLayout>
+</ScrollView>
